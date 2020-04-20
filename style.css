@@ -143,6 +143,22 @@ li
 	margin-left: 80px;
 }
 
+.fas
+{
+	color: #79cbdb; 
+	margin-left: 10px;
+}
+
+.fa-dot-circle
+{
+	color: #79cbdb;
+	margin : 0px 10px 0px -33px;
+}
+
+.icone
+{
+	margin-left: 30px;
+}
 
 .rec
 {
@@ -290,4 +306,17 @@ li
 {
 	margin-top: 1100px;
 }
+
+.ico
+{
+	margin-left: 30px;
+}
+
+.fa-guitar, .fa-laptop, .fa-running
+{
+	color: #505057;
+	margin-left: 50px;
+}
+
+
 
