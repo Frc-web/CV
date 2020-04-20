@@ -320,3 +320,37 @@ li
 
 
 
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+
+	#contenu_page
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	#banderole_page
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	.grand_trait
+	{
+		width : auto;
+	}
+
+	#loisir
+	{	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+
+	.ico
+	{
+		
+	}
