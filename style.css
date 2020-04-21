@@ -34,6 +34,7 @@ body
 	
 	font-family: 'source_sans_proregular', Arial, serif;
 	color: #505057;
+	margin: 0;
 }
 
 #bloc_page
@@ -78,7 +79,7 @@ body
 	font-weight: bold;
 }
 
-.trait
+.petit_trait
 {
 	background-color: #79cbdb;
 	height: 3px;
@@ -98,8 +99,6 @@ body
 {
 	width: 85%;
 	margin: auto;
-	justify-content: center;
-	text-align: justify;
 	font-size: 3em;
 	font-weight: bold;
 	margin-top: 50px;
@@ -109,8 +108,6 @@ body
 
 #contenu h3
 {
-	justify-content: center;
-	text-align: justify;
 	font-size: 2em;
 	margin-top: 15px;
 	font-weight: bold;
@@ -119,8 +116,6 @@ body
 
 #contenu h4
 {
-	justify-content: center;
-	text-align: justify;
 	font-size: 1.4em;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -129,8 +124,6 @@ body
 
 #contenu li
 {
-	justify-content: center;
-	text-align: justify;
 	font-size: 1.4em;
 	margin-bottom: 200px;
 	font-weight: bold;
@@ -143,12 +136,6 @@ li
 	margin-left: 80px;
 }
 
-.fas
-{
-	color: #79cbdb; 
-	margin-left: 10px;
-}
-
 .fa-dot-circle
 {
 	color: #79cbdb;
@@ -157,12 +144,8 @@ li
 
 .icone
 {
-	margin-left: 30px;
-}
-
-.rec
-{
-	display: flex;
+	margin-right: 30px;
+	color: #79cbdb; 
 }
 
 #contenu p
@@ -171,12 +154,6 @@ li
 	text-align: justify;
 	font-size: 1.4em;
 	margin-bottom: 60px;
-}
-
-.form, .exp
-{
-	display: flex;
-	flex-direction: column;
 }
 
 .prems
@@ -188,13 +165,13 @@ li
 .dates
 {
 	flex: 1;
+	font-weight: bold;
 }
 
 .infos
 {
 	flex: 2;
 }
-
 
 
 /* contenu recommandations */
@@ -213,7 +190,7 @@ li
 
 #recommandations h4
 {
-	font-size: ;
+	font-weight: bolder;
 	margin-top: 10px;
 	line-height: 20px;
 	margin-bottom: 10px;
@@ -249,8 +226,6 @@ li
 {
 	flex: 0.95;
 	background-color: #79cbdb;
-	margin-top: -10px;
-	margin-left: -10px;
 }
 
 #photo_identité
