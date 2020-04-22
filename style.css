@@ -11,7 +11,6 @@
          url('fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -26,12 +25,10 @@
          url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body
 {
-	
 	font-family: 'source_sans_proregular', Arial, serif;
 	color: #505057;
 	margin: 0;
@@ -41,7 +38,6 @@ body
 {
 	display: flex;
 	flex-direction: row-reverse;
-	flex-wrap: wrap;
 }
 
 
@@ -81,18 +77,7 @@ body
 
 .petit_trait
 {
-	background-color: #79cbdb;
-	height: 3px;
-	width: 110px;
-	margin: -5px 0px 150px 87px;
-}
-
-.grand_trait
-{
-	background-color: #79cbdb;
-	height: 3px;
-	width: 1000px;
-	margin: 10px 0px 40px 87px;
+	border-bottom: 3px solid #79cbdb;
 }
 
 #contenu h2
@@ -104,6 +89,7 @@ body
 	margin-top: 50px;
 	color: #2e2e30;
 	text-transform: uppercase;
+	border-bottom: 3px solid #79cbdb;
 }
 
 #contenu h3
@@ -284,7 +270,8 @@ li
 
 .ico
 {
-	margin-left: 30px;
+	text-align: center;
+	margin-right: 70px;
 }
 
 .fa-guitar, .fa-laptop, .fa-running
@@ -300,6 +287,8 @@ li
 	#bloc_page
 	{
 		width: auto;
+		display: flex;
+		flex-direction: column;
 	}
 
 	#contenu_page
@@ -316,16 +305,16 @@ li
 
 	.grand_trait
 	{
-		width : auto;
+		width: auto;
 	}
 
 	#loisir
 	{	
-	margin-top: 50px;
-	margin-bottom: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 
 	.ico
 	{
-		
+		text-align: center;
 	}
