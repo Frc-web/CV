@@ -205,8 +205,8 @@ li
 
 .deuxieme_partie
 {
-
 	flex: 1;
+	margin-bottom: 40px;
 }
 
 .premier_partie a, .deuxieme_partie a
@@ -287,14 +287,13 @@ li
 .ico
 {
 	text-align: center;
-	margin-right: 70px;
-	margin-bottom: 40px;
+
 }
 
 .fa-guitar, .fa-laptop, .fa-running
 {
 	color: #505057;
-	margin-left: 50px;
+	margin: 0 25px 40px;
 }
 
 
@@ -308,21 +307,14 @@ li
 		flex-direction: column;
 	}
 
-	#contenu_page
+	.dates ul
 	{
-		width: auto;
-		margin: auto;
+		padding-left: px;
 	}
 
-	#banderole_page
+	.dates li
 	{
-		width: auto;
-		margin: auto;
-	}
-
-	.grand_trait
-	{
-		width: auto;
+		margin-left: 60px;
 	}
 
 	#loisir
@@ -331,7 +323,94 @@ li
 		margin-bottom: 50px;
 	}
 
+	.fa-guitar, .fa-laptop, .fa-running
+	{
+		
+		margin: 0 45px 40px;
+	}
+
+
+	@media all and (max-width: 600px)
+{
+	
+
+	#contenu h1
+	{
+		font-size: 2em;
+		margin-top: 50px;
+	}
+
+	#contenu h1 + p
+	{
+		font-size: 1.4em;
+		margin-bottom: 120px;
+	}
+
+	#contenu h2
+	{
+		font-size: 1.7em;
+	}
+
+	#contenu h3
+	{
+		font-size: 1.5em;
+	}
+
+	#contenu p
+	{
+		font-size: 1.2em;
+	}
+
+	.prems
+	{
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+
+	.dates ul
+	{
+		padding: 0;
+	}
+
+	.rec
+	{
+		display: flex;
+		flex-direction: column;
+		align-content: : flex-end;
+	}
+
+	.premier_partie
+	{
+		margin-left: 0px;
+	}
+
+	#photo_identité img
+	{
+		margin: 70px 50px 0px 50px;
+		width: 200px;
+		height: 200px;
+	}
+
+	#banderole h2
+	{
+		font-size: 1.6em;
+	}
+
+	#banderole p
+	{
+		font-size: 1.2em;
+	}
+
+	
 	.ico
 	{
-		text-align: center;
+		font-size: 0.6em;
 	}
+
+	.fa-guitar, .fa-laptop, .fa-running
+	{
+		margin: 0 25px 20px;
+	}
+
+		
