@@ -137,7 +137,14 @@ li
 .fa-dot-circle
 {
 	color: #79cbdb;
-	margin : 0px 10px 0px -33px;
+	margin : 0 10px 0 -33px;
+}
+
+.fa-circle
+{
+	color: #79cbdb;
+	font-size: 15px;
+	margin : 0 10px 0 -33px;
 }
 
 .icone
@@ -348,12 +355,17 @@ li
 
 	#contenu h2
 	{
-		font-size: 1.7em;
+		font-size: 1.6em;
 	}
 
 	#contenu h3
 	{
-		font-size: 1.5em;
+		font-size: 1.4em;
+	}
+
+	#contenu h4
+	{
+		font-size: 1.2em;
 	}
 
 	#contenu p
