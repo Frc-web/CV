@@ -233,6 +233,8 @@ li
 {
 	flex: 0.95;
 	background-color: #79cbdb;
+	display: flex;
+	flex-direction: column;
 }
 
 #photo_identité
@@ -286,9 +288,8 @@ li
 	font-size: 1em;
 }
 
-#loisir
-{
-	margin-top: 930px;
+#a_propos {
+	flex-grow: 1;
 }
 
 .ico
