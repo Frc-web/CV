@@ -389,7 +389,7 @@ li
 	{
 		display: flex;
 		flex-direction: column;
-		align-content: : flex-end;
+		align-content: flex-end;
 	}
 
 	.premier_partie
@@ -424,5 +424,3 @@ li
 	{
 		margin: 0 25px 20px;
 	}
-
-		
